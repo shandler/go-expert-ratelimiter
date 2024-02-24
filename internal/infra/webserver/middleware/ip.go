@@ -7,11 +7,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cshandler/go-expert-ratelimiter/config"
-	"github.com/cshandler/go-expert-ratelimiter/internal/dto"
-	"github.com/cshandler/go-expert-ratelimiter/internal/entity"
-	"github.com/cshandler/go-expert-ratelimiter/internal/infra/database"
-	"github.com/cshandler/go-expert-ratelimiter/internal/usecase"
+	"github.com/shandler/go-expert-ratelimiter/config"
+	"github.com/shandler/go-expert-ratelimiter/internal/dto"
+	"github.com/shandler/go-expert-ratelimiter/internal/entity"
+	"github.com/shandler/go-expert-ratelimiter/internal/infra/database"
+	"github.com/shandler/go-expert-ratelimiter/internal/usecase"
 	"github.com/redis/go-redis/v9"
 )
 
