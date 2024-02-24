@@ -3,11 +3,11 @@ package main
 import (
 	"net/http"
 
-	"github.com/cshandler/go-expert-ratelimiter/config"
-	"github.com/cshandler/go-expert-ratelimiter/internal/infra/database"
-	internalHandler "github.com/cshandler/go-expert-ratelimiter/internal/infra/handler"
-	"github.com/cshandler/go-expert-ratelimiter/internal/infra/webserver"
-	"github.com/cshandler/go-expert-ratelimiter/internal/infra/webserver/middleware"
+	"github.com/shandler/go-expert-ratelimiter/config"
+	"github.com/shandler/go-expert-ratelimiter/internal/infra/database"
+	internalHandler "github.com/shandler/go-expert-ratelimiter/internal/infra/handler"
+	"github.com/shandler/go-expert-ratelimiter/internal/infra/webserver"
+	"github.com/shandler/go-expert-ratelimiter/internal/infra/webserver/middleware"
 	"github.com/redis/go-redis/v9"
 )
 
