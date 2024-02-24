@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cshandler/go-expert-ratelimiter/config"
-	"github.com/cshandler/go-expert-ratelimiter/internal/dto"
-	"github.com/cshandler/go-expert-ratelimiter/internal/entity"
-	"github.com/cshandler/go-expert-ratelimiter/internal/entity/mock"
+	"github.com/shandler/go-expert-ratelimiter/config"
+	"github.com/shandler/go-expert-ratelimiter/internal/dto"
+	"github.com/shandler/go-expert-ratelimiter/internal/entity"
+	"github.com/shandler/go-expert-ratelimiter/internal/entity/mock"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 )
