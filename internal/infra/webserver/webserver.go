@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	internalMw "github.com/cshandler/go-expert-ratelimiter/internal/infra/webserver/middleware"
+	internalMw "github.com/shandler/go-expert-ratelimiter/internal/infra/webserver/middleware"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )
