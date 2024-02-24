@@ -1,7 +1,7 @@
-# 🚧 GoExpert rate limiter
+#  GoExpert rate limiter
 
 
-# 🏭 How it works?
+#  How it works?
 
 - We have this structure to handle the requests:
   ```go
@@ -49,7 +49,7 @@
 
 
 
-# 🏔️ Environment variables and configuration
+#  Environment variables and configuration
 
 ## IP configuration
 
@@ -112,13 +112,13 @@ curl -s \
 
 Each token has different configuration.
 
-# 🚀 Starting the application!
+#  Starting the application!
 
 - Execute the command `make prepare`, this will copy the default configuration.
 - Before you execute the docker compose command, you can edit the `env.json` configuration file with your onw values.
 - Finally, you can execute using the command `make run`. and then we can see the containers set in `docker-compose.yaml`.
 
-# 💿 Redis DB
+#  Redis DB
 
 ## API Key keys
 
@@ -180,7 +180,7 @@ Each token has different configuration.
 
 
 
-# 🧪 How can I test?
+#  How can I test?
 
 To learn more about the CLI using for test, you can run this:
 
