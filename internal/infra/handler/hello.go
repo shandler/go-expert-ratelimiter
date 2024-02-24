@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/cshandler/go-expert-ratelimiter/internal/entity"
+	"github.com/shandler/go-expert-ratelimiter/internal/entity"
 )
 
 func HelloWorld(w http.ResponseWriter, _ *http.Request) {
