@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/cshandler/go-expert-ratelimiter/internal/dto"
-	"github.com/cshandler/go-expert-ratelimiter/internal/entity"
-	"github.com/cshandler/go-expert-ratelimiter/internal/usecase"
+	"github.com/shandler/go-expert-ratelimiter/internal/dto"
+	"github.com/shandler/go-expert-ratelimiter/internal/entity"
+	"github.com/shandler/go-expert-ratelimiter/internal/usecase"
 )
 
 type APIKeyHandler struct {
