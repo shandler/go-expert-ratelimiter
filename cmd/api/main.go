@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cshandler/go-expert-ratelimiter/config"
+	"github.com/shandler/go-expert-ratelimiter/config"
 	"github.com/redis/go-redis/v9"
 )
 
