@@ -1,4 +1,4 @@
-module github.com/cshandler/go-expert-ratelimiter
+module github.com/shandler/go-expert-ratelimiter
 
 go 1.21.5
 
