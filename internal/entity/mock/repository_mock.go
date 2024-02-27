@@ -12,7 +12,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	entity "github.com/cshandler/go-expert-ratelimiter/internal/entity"
+	entity "github.com/shandler/go-expert-ratelimiter/internal/entity"
 	gomock "go.uber.org/mock/gomock"
 )
 
